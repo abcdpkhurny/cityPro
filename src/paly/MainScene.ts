@@ -28,6 +28,7 @@ class MainScene extends eui.Component implements eui.UIComponent {
 				this.toggleBtn(theBtn)
 			}, this)
 		}
+		
 
 		//下面都是测试用,数据录入用于微信小游戏
 		////////////////////////////////
