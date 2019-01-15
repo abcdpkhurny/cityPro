@@ -59,7 +59,6 @@ class LoadingUI extends egret.Sprite implements RES.PromiseTaskReporter {
             this.textField.text = tt
         }, 600)
         
-
         // 监听帧事件,每帧都让loading图片转动
         this.addEventListener(egret.Event.ENTER_FRAME, this.updata, this)
         //从舞台删除时执行
