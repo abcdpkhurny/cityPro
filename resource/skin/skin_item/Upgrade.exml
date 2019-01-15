@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UpgradeSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1677d947540" ></w:Config>
+	<e:Image source="choose_bg_png" horizontalCenter="0" y="267"/>
+	<e:Button id="btnYse" label="确定" x="601" y="368" skinName="Btn_black"/>
+	<e:Button id="btnClose" label="取消" x="478" y="368" skinName="Btn_black"/>
+	<e:Image source="icon_blue_png" horizontalCenter="0"  x="535.5" y="288"/>
+	<e:Label id="textIntro" size="18" textColor="0X000000" text="升级到3级需要点数：4/5" width="250" textAlign="center" horizontalCenter="0"  y="335" />
+	<e:Label id="textGrade" size="28" text="Lv.1" horizontalCenter="0.5"  y="292"/>
+</e:Skin>

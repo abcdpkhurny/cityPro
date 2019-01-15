@@ -1,0 +1,35 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/game/game.js",
+		"libs/modules/promise/promise.js"
+	],
+	"game": [
+		"bin-debug/paly/LoadingBar.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/Platform.js",
+		"bin-debug/euisys/AssetAdapter.js",
+		"bin-debug/euisys/ThemeAdapter.js",
+		"bin-debug/paly/BuildBase.js",
+		"bin-debug/paly/BuildData.js",
+		"bin-debug/paly/BuildUI.js",
+		"bin-debug/paly/CheckUI.js",
+		"bin-debug/paly/GameConst.js",
+		"bin-debug/paly/GameScene.js",
+		"bin-debug/Main.js",
+		"bin-debug/paly/LoginScene.js",
+		"bin-debug/paly/MainScene.js",
+		"bin-debug/paly/Ranking.js",
+		"bin-debug/paly/SceneManager.js",
+		"bin-debug/paly/item/DestroyUI.js",
+		"bin-debug/paly/item/ErrUI.js",
+		"bin-debug/paly/item/MainInfo.js",
+		"bin-debug/paly/item/MaxBuild.js",
+		"bin-debug/paly/item/UpdateBuild.js",
+		"bin-debug/paly/item/Upgrade.js"
+	]
+}

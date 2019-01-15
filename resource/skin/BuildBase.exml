@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BuildBaseSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="167867926fe" ></w:Config>
+	<e:Image source="game_bg2_jpg" locked="true"/>
+	<!--<e:Image source="game_bg_billot_png"/>-->
+	<e:Group id="groupBase" width="1136" height="640"  locked="true">
+		<e:Image name="1_1" source="icon_build_base_png" pixelHitTest="true"  x="60.67" y="141.33"/>
+		<e:Image name="1_2" source="icon_build_base_png" pixelHitTest="true" x="64.67" y="241.33"/>
+		<e:Image name="1_3" source="icon_build_base_png" pixelHitTest="true" x="150.67" y="193.33"/>
+
+		<e:Image name="2_1" source="icon_build_base_png" pixelHitTest="true" x="29.67" y="420.33"/>
+		<e:Image name="2_2" source="icon_build_base_png" pixelHitTest="true" x="160.67" y="344.33"/>
+		<e:Image name="2_3" source="icon_build_base_png" pixelHitTest="true" x="287.67" y="272"/>
+		<e:Image name="2_4" source="icon_build_base_png" pixelHitTest="true" x="80.67" y="526"/>
+		<e:Image name="2_5" source="icon_build_base_png" pixelHitTest="true" x="171.67" y="473"/>
+		<e:Image name="2_6" source="icon_build_base_png" pixelHitTest="true" x="322.67" y="386"/>
+		<e:Image name="2_7" source="icon_build_base_png" pixelHitTest="true" x="408.67" y="340"/>
+
+		<e:Image name="3_1" source="icon_build_base_png" pixelHitTest="true" x="122" y="37" />
+		<e:Image name="3_2" source="icon_build_base_png" pixelHitTest="true" x="223" y="95" />
+		<e:Image name="3_3" source="icon_build_base_png" pixelHitTest="true" x="322" y="152" />
+		<e:Image name="3_4" source="icon_build_base_png" pixelHitTest="true" x="424" y="210" />
+		<e:Image name="3_5" source="icon_build_base_png" pixelHitTest="true" x="523" y="267" />
+		<e:Image name="3_6" source="icon_build_base_png" pixelHitTest="true" x="350" y="37" />
+		<e:Image name="3_7" source="icon_build_base_png" pixelHitTest="true" x="442" y="92" />
+		<e:Image name="3_8" source="icon_build_base_png" pixelHitTest="true" x="539" y="148" />
+		<e:Image name="3_9" source="icon_build_base_png" pixelHitTest="true" x="634" y="204" />
+		<e:Image name="3_10" source="icon_build_base_png" pixelHitTest="true" x="648" y="7" />
+
+		<e:Image name="4_1" source="icon_build_base_png" pixelHitTest="true" x="337" y="529"/>
+		<e:Image name="4_2" source="icon_build_base_png" pixelHitTest="true" x="422" y="480"/>
+		<e:Image name="4_3" source="icon_build_base_png" pixelHitTest="true" x="509" y="431"/>
+		<e:Image name="4_4" source="icon_build_base_png" pixelHitTest="true" x="689" y="329"/>
+		<e:Image name="4_5" source="icon_build_base_png" pixelHitTest="true" x="778" y="277"/>
+
+		<e:Image name="5_1" source="icon_build_base_png" pixelHitTest="true" x="751" y="108"/>
+		<e:Image name="5_2" source="icon_build_base_png" pixelHitTest="true" x="832" y="60"/>
+		<e:Image name="5_3" source="icon_build_base_png" pixelHitTest="true" x="844" y="161"/>
+		<e:Image name="5_4" source="icon_build_base_png" pixelHitTest="true" x="926" y="112"/>
+	</e:Group>
+	<e:Group id="groupBuild" touchThrough="true" width="1136" height="640"  locked="true">
+		<e:Image name="3_10" source="icon_b5_4_png" pixelHitTest="true" x="648" y="-128"/>
+		<e:Image name="3_1" source="icon_b5_4_png" pixelHitTest="true" x="122" y="-98"/>
+		<e:Image name="3_6" source="icon_b5_4_png" pixelHitTest="true" x="350" y="-98"/>
+		<e:Image name="5_2" source="icon_b5_4_png" pixelHitTest="true" x="832" y="-75"/>
+		<e:Image name="3_7" source="icon_b5_4_png" pixelHitTest="true" x="442" y="-43"/>
+		<e:Image name="3_2" source="icon_b5_4_png" pixelHitTest="true" x="223" y="-38"/>
+		<e:Image name="5_1" source="icon_b5_4_png" pixelHitTest="true" x="751" y="-27"/>
+		<e:Image name="5_4" source="icon_b5_4_png" pixelHitTest="true" x="926" y="-23"/>
+		<e:Image name="1_1" source="icon_b5_4_png" pixelHitTest="true" x="61.67" y="6.82"/>
+		<e:Image name="3_8" source="icon_b5_4_png" pixelHitTest="true" x="539" y="13"/>
+		<e:Image name="3_3" source="icon_b5_4_png" pixelHitTest="true" x="322" y="17"/>
+		<e:Image name="5_3" source="icon_b5_4_png" pixelHitTest="true" x="844" y="26"/>
+		<e:Image name="1_3" source="icon_b5_4_png" pixelHitTest="true" x="150.17" y="58.33"/>
+		<e:Image name="3_9" source="icon_b5_4_png" pixelHitTest="true" x="634" y="69"/>
+		<e:Image name="3_4" source="icon_b5_4_png" pixelHitTest="true" x="424" y="75"/>
+		<e:Image name="1_2" source="icon_b5_4_png" pixelHitTest="true" x="64.67" y="106"/>
+		<e:Image name="3_5" source="icon_b5_4_png" pixelHitTest="true" x="523" y="132"/>
+		<e:Image name="2_3" source="icon_b5_4_png" pixelHitTest="true" x="287.67" y="137"/>
+		<e:Image name="4_5" source="icon_b5_4_png" pixelHitTest="true" x="778" y="142"/>
+		<e:Image name="4_4" source="icon_b5_4_png" pixelHitTest="true" x="689" y="194"/>
+		<e:Image name="2_2" source="icon_b5_4_png" pixelHitTest="true" x="160.67" y="209.33"/>
+		<e:Image name="2_7" source="icon_b5_4_png" pixelHitTest="true" x="408.67" y="205"/>
+		<e:Image name="2_6" source="icon_b5_4_png" pixelHitTest="true" x="322.67" y="250"/>
+		<e:Image name="2_1" source="icon_b5_4_png" pixelHitTest="true" x="29.67" y="285.33"/>
+		<e:Image name="4_3" source="icon_b5_4_png" pixelHitTest="true" x="509" y="296"/>
+		<e:Image name="2_5" source="icon_b5_4_png" pixelHitTest="true" x="171.67" y="337"/>
+		<e:Image name="4_2" source="icon_b5_4_png" pixelHitTest="true" x="422" y="345"/>
+		<e:Image name="2_4" source="icon_b5_4_png" pixelHitTest="true" x="80.67" y="389"/>
+		<e:Image name="4_1" source="icon_b5_4_png" pixelHitTest="true" x="337" y="394"/>
+			
+	</e:Group>
+	<e:Image id="btnClose" source="btn_back_png" y="7" scaleX="0.7" scaleY="0.7" anchorOffsetX="0" anchorOffsetY="0" x="5.87" locked="true"/>
+	<e:Image source="icon_userInfo_bg_png" x="836" y="466" locked="true"/>	
+	<e:Image id="imgInfo" source="icon_avatarUrl_png"  x="855" y="473"/>
+	<e:Label id="textName" text="名字好长很..." size="18" x="970" y="479" textColor="0x000000"  height="22"  width="148"/>
+	<e:Label id="textEnergy" text="能量：" size="24" x="962.36" y="525" textColor="0x000000"/>
+</e:Skin>

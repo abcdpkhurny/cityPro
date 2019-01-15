@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainSceneSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="167770ecdcf" ></w:Config>
+	<e:Image source="main_bg_jpg" />
+	<e:ToggleButton id="mbtnStart" name="开始游戏" horizontalCenter="-317.5" y="474.09">
+		<e:Skin states="up,down,disabled,disabledAndSelected" >
+			<e:Image scale9Grid="1,3,8,8" source="main_strat_png" width.down="90%" height.down="90%" width="100%" height="100%" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:ToggleButton>
+	<e:ToggleButton id="mbtnShare" name="邀请更多好友" horizontalCenter="-0.5" y="474.09">
+		<e:Skin states="up,down,disabled,disabledAndSelected" >
+			<e:Image scale9Grid="1,3,8,8" source="main_invite_png" width.down="90%" height.down="90%" width="100%" height="100%" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:ToggleButton>
+	<e:ToggleButton id="mbtnInfo" name="说明" x="766.79" y="474.09">
+		<e:Skin states="up,down,disabled,disabledAndSelected" >
+			<e:Image scale9Grid="1,3,8,8" source="main_info_png" width.down="90%" height.down="90%" width="100%" height="100%" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:ToggleButton>
+	<e:ToggleButton id="mbtnRanking" name="排行榜" x="273" y="912">
+		<e:Skin states="up,down,disabled,disabledAndSelected" >
+			<e:Image source=""  />
+		</e:Skin>
+	</e:ToggleButton>
+	<e:ToggleButton id="mbtnMore" name="更多游戏" x="446" y="912">
+		<e:Skin states="up,down,disabled,disabledAndSelected" >
+			<e:Image source=""  />
+		</e:Skin>
+	</e:ToggleButton>
+	<!--<e:Label text="" size="36"  x="62.5" y="1026" verticalAlign="middle" textAlign="center" width="170"/>
+	<e:Label text="排行榜" size="36"  x="235.5" y="1026" verticalAlign="middle" textAlign="center" width="170"/>
+	<e:Label text="" size="36"  x="408.5" y="1026" verticalAlign="middle" textAlign="center" width="170"/>-->
+</e:Skin>

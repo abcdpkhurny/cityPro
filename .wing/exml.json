@@ -1,0 +1,75 @@
+{
+  "16773614eca": {
+    "path": "paly\\CheckUI.ts",
+    "class": "CheckUI",
+    "parentPath": ""
+  },
+  "167770ecdcf": {
+    "path": "paly\\MainScene.ts",
+    "class": "MainScene",
+    "parentPath": ""
+  },
+  "1677c01757f": {
+    "path": "paly\\BuildUI.ts",
+    "class": "BuildUI",
+    "parentPath": ""
+  },
+  "1677d92dd8d": {
+    "path": "paly\\item\\Upgrade.ts",
+    "class": "Upgrade",
+    "parentPath": ""
+  },
+  "1677d947540": {
+    "path": "paly\\item\\Upgrade.ts",
+    "class": "Upgrade",
+    "parentPath": ""
+  },
+  "global": {
+    "globalAutoLayerMarkEnable": true
+  },
+  "167867926fe": {
+    "path": "paly\\BuildBase.ts",
+    "class": "BuildBase",
+    "parentPath": ""
+  },
+  "1679632d8ef": {
+    "path": "paly\\item\\UpdateBuild.ts",
+    "class": "UpdateBuild",
+    "parentPath": ""
+  },
+  "167963442cb": {
+    "path": "paly\\item\\UpdateBuild.ts",
+    "class": "UpdateBuild",
+    "parentPath": ""
+  },
+  "16796d57012": {
+    "path": "..\\resource\\skin\\skin_item\\MaxBuild.ts",
+    "class": "MaxBuild",
+    "parentPath": ""
+  },
+  "16796d661a3": {
+    "path": "paly\\item\\MaxBuild.ts",
+    "class": "MaxBuild",
+    "parentPath": ""
+  },
+  "167974b4d01": {
+    "path": "paly\\item\\Destroy.ts",
+    "class": "Destroy",
+    "parentPath": ""
+  },
+  "1679751b543": {
+    "path": "paly\\item\\DestroyUI.ts",
+    "class": "DestroyUI",
+    "parentPath": ""
+  },
+  "167b9ebf468": {
+    "path": "paly\\item\\MainInfo.ts",
+    "class": "MainInfo",
+    "parentPath": ""
+  },
+  "167cf7f8e2f": {
+    "path": "paly\\item\\ErrUI.ts",
+    "class": "ErrUI",
+    "parentPath": ""
+  }
+}

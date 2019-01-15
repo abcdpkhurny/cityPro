@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ErrUISkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="167cf7f8e2f" ></w:Config>
+	<e:Image source="choose_bg_png" horizontalCenter="0.5" y="154"/>
+	<e:Button id="btnRe" label="重试"  skinName="Btn_black" x="482" y="257"/>
+	<e:Button id="btnExit" label="退出"  skinName="Btn_black" x="579" y="257"/>
+	<e:Label size="22" textColor="0X000000" text="网络繁忙求稍后再试！" width="250" textAlign="center" horizontalCenter="0"  y="192" />
+	<e:Label id="textInfo" text="" size="18" textColor="0X000000"  width="150" textAlign="center" horizontalCenter="0" y="227"/>
+</e:Skin>

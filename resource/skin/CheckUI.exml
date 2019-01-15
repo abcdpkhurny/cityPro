@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CheckUISkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16773614eca" ></w:Config>
+	<e:Image source="check_bg_png" horizontalCenter="0" y="269" anchorOffsetY="0" height="261"/>
+	<e:Image source="check_input_jpg" horizontalCenter="-85" y="451.67"/>
+	<e:Image id="imgText" horizontalCenter="0.5" width="413" height="121" y="320"  source="" name="" anchorOffsetY="0"/>
+	<e:ToggleButton id="mbtnYse" name="肯定"  horizontalCenter="144.5" y="453.67">
+		<e:Skin states="up,down,disabled,disabledAndSelected" >
+			<e:Image id="imgBtn" source="check_yes_png" width.down="90%" height.down="90%"  width="100%" height="100%" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:ToggleButton>
+	<e:TextInput id="textCheck" inputType="text" prompt="请输入验证码" width="206" height="29" horizontalCenter="-87" y="460.67"  anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="textError" text="输入有误，请重新输入" size="14" textColor="0xff0000" x="373.5" y="502.7" alpha="0"/>	
+	<e:Label text="每次输入正确增加1点" size="20" textColor="0x000000" x="369.17" y="291.39" />	
+	<e:Label id="textEnes" text="现有点数" size="20" textColor="0x000000" x="611.83" y="291.39" />	
+	<e:Image id="imgClose" source="btn_back_png" x="775.83" y="278.39" anchorOffsetX="0" width="35" anchorOffsetY="0" height="33"/>
+</e:Skin>
