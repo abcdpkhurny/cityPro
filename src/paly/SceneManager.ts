@@ -10,10 +10,10 @@ class SceneManager {
     // 在构造函数中创建好场景，保存到属性
     constructor() {
         //加载资源 排行榜
-        // const platform: any = window.platform;
-        // platform.openDataContext.postMessage({
-        //     command: 'loadRes'
-        // });
+        const platform: any = window.platform;
+        platform.openDataContext.postMessage({
+            command: 'loadRes'
+        });
         this.mainScene = new MainScene();
         this.gameScene = new GameScene();
         this.checkUI = new CheckUI();
