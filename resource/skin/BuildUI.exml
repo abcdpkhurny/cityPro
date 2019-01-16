@@ -2,11 +2,9 @@
 <e:Skin class="BuildUISkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
 	<w:Config id="1677c01757f" ></w:Config>
 	<e:Image source="build_bg_png" verticalCenter="0" horizontalCenter="0" />
-	<e:Image source="build_bg2_png" horizontalCenter="0.5" y="174"/>
-	<e:Image id="btnClose" source="icon_close_png" scaleX="0.5" scaleY="0.5"  x="966" y="126"/>
-	<e:Label text="建造列表" horizontalCenter="0" y="134"/>
-	<e:Scroller id="src_build" width="812" height="322" x="162" y="185" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on">
-		<e:List id="list_build" itemRendererSkinName="Build_item" height="250">
+	<e:Image id="btnClose" source="icon_close_png"  x="967" y="109"/>
+	<e:Scroller id="src_build" width="924" height="310" x="106" y="180" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on">
+		<e:List id="list_build" itemRendererSkinName="Build_item" >
 			<e:layout>
 				<e:TileLayout horizontalGap="1" />
 			</e:layout>
