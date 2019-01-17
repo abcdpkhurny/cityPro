@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin class="UpdateBuildSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
 	<w:Config id="167963442cb" ></w:Config>
-	<e:Image source="choose_bigbg_png" horizontalCenter="0.5" y="133" anchorOffsetY="0" height="300"/>
-	<e:Image id="oldbuild" source="icon_b3_4_png"  x="313" y="150"/>
-	<e:Image id="newbuild" source="icon_b3_4_png"  x="676" y="150"/>
+	<e:Image source="choose_bigbg_png" scale9Grid="80,100,40,50" horizontalCenter="0.5" y="133" anchorOffsetY="0" width="620" height="340"/>
+	<e:Image id="oldbuild" source="icon_b3_4_png"  x="305" y="173"/>
+	<e:Image id="newbuild" source="icon_b3_4_png"  x="682" y="174"/>
 	<e:Image source="icon_arrows_png" horizontalCenter="0" y="286"/>
-	<e:Button id="btnYse" label="升级" x="662" y="375" skinName="Btn_black"/>
-	<e:Button id="btnClose" label="取消" x="408" y="375" skinName="Btn_black"/>
-	<e:Button id="btnClear" label="摧毁" x="536" y="375" skinName="Btn_black"/>
-	<e:Image source="icon_blue_png" horizontalCenter="0"  x="535.5" y="193"/>
-	<e:Label id="textIntro" size="18" textColor="0X000000" text="升级到3级需要点数：40/50" width="250" textAlign="center" horizontalCenter="0"  y="336" />
-	<e:Label id="textGrade" size="28" text="Lv.1" horizontalCenter="0.5"  y="197"/>
+	<e:Button id="btnYse" label="升级" x="682" y="403" skinName="Btn_blueSkin"/>
+	<e:Button id="btnClose" label="取消" x="386" y="403" skinName="Btn_yellowSkin"/>
+	<e:Button id="btnClear" label="摧毁" x="536" y="403" skinName="Btn_blackSkin"/>
+	<e:Image source="icon_blue_png" horizontalCenter="0"  x="535.5" y="182"/>
+	<e:Label id="textIntro" size="18" textColor="0X000000" text="升级到3级需要点数：40/50" width="250" textAlign="center" horizontalCenter="0"  y="350" />
+	<e:Label id="textGrade" size="28" text="Lv.1" horizontalCenter="0.5"  y="186"/>
 	<e:Label id="textName" size="28" text="住宅" bold="true" textColor="0x4e4e4e" x="548" y="246" width="200" textAlign="center" horizontalCenter="0"/>
 </e:Skin>

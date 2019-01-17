@@ -94,8 +94,8 @@ var LoginScene = (function (_super) {
                             console.log("授权成功");
                         }
                         else {
-                            // GameConst.removeChild(this.loading)
-                            // GameConst.removeChild(this.loadingMask)
+                            GameConst.removeChild(this.loading);
+                            GameConst.removeChild(this.loadingMask);
                             if (!this.backShp)
                                 this.backShp = GameConst.createLoadingMask(0.2, 0x0000000, true);
                             GameConst.controlBacksh(this.backShp, true, this);
@@ -117,8 +117,6 @@ var LoginScene = (function (_super) {
                                 }
                                 if (_this.errUI.isExit) {
                                     //取消所有东西还原授权按钮
-                                    GameConst.removeChild(_this.loading);
-                                    GameConst.removeChild(_this.loadingMask);
                                 }
                             }, this);
                             console.log("网络出错");

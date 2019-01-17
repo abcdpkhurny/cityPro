@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="Build_item" width="193" height="260" xmlns:e="http://ns.egret.com/eui">
+<e:Skin class="Build_item" width="180" height="260" xmlns:e="http://ns.egret.com/eui">
     <e:Image source="{data.image}" pixelHitTest="true" horizontalCenter="0" width="152" height="200"/>
     <e:Label size="24" textColor="0x000000" text="{data.text}" horizontalCenter="0" y="220"/>
 </e:Skin>

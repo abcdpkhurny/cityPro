@@ -30,42 +30,42 @@ var MainScene = (function (_super) {
         //下面都是测试用,数据录入用于微信小游戏
         ////////////////////////////////
         //处理遮罩，避免开放数据域事件影响主域。
-        // this.loadingMask = new egret.Shape();
-        // this.loadingMask.graphics.beginFill(0x000000, 1);
-        // this.loadingMask.graphics.drawRect(0, 0, GameConst.StageW, GameConst.StageH);
-        // this.loadingMask.graphics.endFill();
-        // this.loadingMask.alpha = 0.5;
-        // //禁止底层的事件操作
-        // this.loadingMask.touchEnabled = true;
-        // this.loading = new LoadingUI()
-        // this.addChild(this.loadingMask)
-        // this.addChild(this.loading)
-        // let url: string = GameConst.url + "cityPro/userInfo.do"
-        // let param: string = "openid=onJoc5JSThWszGrGVmWaONpLss6k"
-        // let req = GameConst.reqGetJSON(url + "?" + param);
-        // req.addEventListener(egret.IOErrorEvent.IO_ERROR, () => {
-        // 	console.log("加载切片超时")
-        // 	this.removeChildAll();
-        // }, this)
-        // req.addEventListener(egret.Event.COMPLETE, () => {
-        // 	var data: string = req.response;
-        // 	//console.log(data);
-        // 	let josnDate = JSON.parse(data)
-        // 	//查询成功
-        // 	if (josnDate.code == 0) {
-        // 		//录入数据
-        // 		GameConst.player = josnDate.data
-        // 		this.removeChildAll()
-        // 		var btn = new eui.Button();
-        // 		btn.label = "Click"
-        // 		btn.verticalCenter = 0
-        // 		btn.horizontalCenter = 0
-        // 		this.addChild(btn)
-        // 		btn.addEventListener(egret.TouchEvent.TOUCH_TAP, () => {
-        // 			SceneManager.toGameScene()
-        // 		}, this)
-        // 	}
-        // }, this)
+        this.loadingMask = new egret.Shape();
+        this.loadingMask.graphics.beginFill(0x000000, 1);
+        this.loadingMask.graphics.drawRect(0, 0, GameConst.StageW, GameConst.StageH);
+        this.loadingMask.graphics.endFill();
+        this.loadingMask.alpha = 0.5;
+        //禁止底层的事件操作
+        this.loadingMask.touchEnabled = true;
+        this.loading = new LoadingUI();
+        this.addChild(this.loadingMask);
+        this.addChild(this.loading);
+        var url = GameConst.url + "cityPro/userInfo.do";
+        var param = "openid=onJoc5JSThWszGrGVmWaONpLss6k";
+        var req = GameConst.reqGetJSON(url + "?" + param);
+        req.addEventListener(egret.IOErrorEvent.IO_ERROR, function () {
+            console.log("加载切片超时");
+            _this.removeChildAll();
+        }, this);
+        req.addEventListener(egret.Event.COMPLETE, function () {
+            var data = req.response;
+            //console.log(data);
+            var josnDate = JSON.parse(data);
+            //查询成功
+            if (josnDate.code == 0) {
+                //录入数据
+                GameConst.player = josnDate.data;
+                _this.removeChildAll();
+                var btn = new eui.Button();
+                btn.label = "Click";
+                btn.verticalCenter = 0;
+                btn.horizontalCenter = 0;
+                _this.addChild(btn);
+                btn.addEventListener(egret.TouchEvent.TOUCH_TAP, function () {
+                    SceneManager.toGameScene();
+                }, _this);
+            }
+        }, this);
         ////////////////////////////////
     };
     MainScene.prototype.removeChildAll = function () {

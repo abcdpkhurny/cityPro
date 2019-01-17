@@ -25,9 +25,9 @@ class BuildBase extends eui.Component implements eui.UIComponent {
 		this.bases = this.groupBase.$children
 		this.builds = this.groupBuild.$children
 		//玩家头像
-		if (GameConst.player.avatarUrl) this.imgInfo.source = "icon_avatarUrl_png"
-		// if (GameConst.player.avatarUrl) this.imgInfo.source = GameConst.player.avatarUrl
-		// else this.imgInfo.source = "icon_avatarUrl_png"
+		//if (GameConst.player.avatarUrl) this.imgInfo.source = "icon_avatarUrl_png"
+		if (GameConst.player.avatarUrl) this.imgInfo.source = GameConst.player.avatarUrl
+		else this.imgInfo.source = "icon_avatarUrl_png"
 		this.imgInfo.width = 93
 		this.imgInfo.height = 93
 		//画一个红色的正方形

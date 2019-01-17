@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin class="MaxBuildSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
 	<w:Config id="16796d661a3" ></w:Config>
-	<e:Image source="choose_bg2_png" horizontalCenter="0" y="120" anchorOffsetY="0" height="376"/>
-	<e:Image id="imgbuild" source="icon_b3_4_png" horizontalCenter="0" y="171"/>
-	<e:Button id="btnClose" label="取消" x="596" y="427" skinName="Btn_black"/>
-	<e:Button id="btnClear" label="摧毁" x="468" y="427" skinName="Btn_black"/>
-	<e:Label id="textIntro" size="18" textColor="0X000000" text="目前已经是最高等级：Lv1" width="250" textAlign="center" horizontalCenter="0"  y="151" />
+	<e:Image source="max_bg_png" horizontalCenter="0" y="120" anchorOffsetY="0" />
+	<e:Image id="imgbuild" source="icon_b3_4_png" horizontalCenter="0" y="189"/>
+	<e:Button id="btnClose" label="取消" x="596" y="450" skinName="Btn_yellowSkin"/>
+	<e:Button id="btnClear" label="摧毁" x="468" y="450" skinName="Btn_blackSkin"/>
+	<e:Label id="textIntro" size="18" textColor="0X000000" text="目前已经是最高等级：Lv1" width="250" textAlign="center" horizontalCenter="0"  y="159" />
 	<!--<e:Image source="icon_blue_png" horizontalCenter="0"  x="535.5" y="177"/>
 	<e:Label id="textGrade" size="28" text="Lv.1" horizontalCenter="0.5"  y="181"/>-->
-	<e:Label id="textName" size="28" text="住宅" bold="true" textColor="0x4e4e4e" x="548" y="397" width="200" textAlign="center" horizontalCenter="0"/>
+	<e:Label id="textName" size="28" text="住宅" bold="true" textColor="0x4e4e4e" x="548" y="415" width="200" textAlign="center" horizontalCenter="0"/>
 </e:Skin>

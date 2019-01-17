@@ -48,8 +48,8 @@ class LoginScene extends eui.Component {
 			SceneManager.toMainScene()
 			console.log("授权成功")
 		} else {
-			// GameConst.removeChild(this.loading)
-			// GameConst.removeChild(this.loadingMask)
+			GameConst.removeChild(this.loading)
+			GameConst.removeChild(this.loadingMask)
 			if (!this.backShp) this.backShp = GameConst.createLoadingMask(0.2, 0x0000000, true)
 			GameConst.controlBacksh(this.backShp, true, this)
 			if (!this.errUI) this.errUI = new ErrUI()
@@ -68,8 +68,6 @@ class LoginScene extends eui.Component {
 				}
 				if (this.errUI.isExit) {
 					//取消所有东西还原授权按钮
-					GameConst.removeChild(this.loading)
-					GameConst.removeChild(this.loadingMask)
 				}
 			}, this)
 			console.log("网络出错")

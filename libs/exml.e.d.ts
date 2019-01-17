@@ -60,7 +60,11 @@ declare class LoginSceneSkin extends eui.Skin{
 }
 declare class MainSceneSkin extends eui.Skin{
 }
-declare class Btn_black extends eui.Skin{
+declare class Btn_blackSkin extends eui.Skin{
+}
+declare class Btn_blueSkin extends eui.Skin{
+}
+declare class Btn_yellowSkin extends eui.Skin{
 }
 declare class Build_item extends eui.Skin{
 }

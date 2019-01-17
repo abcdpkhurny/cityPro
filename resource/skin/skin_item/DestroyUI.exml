@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin class="DestroyUISkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
 	<w:Config id="1679751b543" ></w:Config>
-	<e:Image source="choose_bg_png" horizontalCenter="0.5" y="154"/>
-	<e:Button id="btnYse" label="确定" x="601" y="255" skinName="Btn_black"/>
-	<e:Button id="btnClose" label="取消" x="478" y="255" skinName="Btn_black"/>
-	<e:Label size="24" textColor="0X000000" text="确认拆除建筑吗？" width="250" textAlign="center" horizontalCenter="0"  y="192" />
-	<e:Label id="textInfo" text="消耗能量1/5" size="18" textColor="0X000000"  width="150" textAlign="center" horizontalCenter="0" y="227"/>
+	<e:Image source="choose_bg_png" scale9Grid="50,100,25,50" width="300" height="180" horizontalCenter="0.5" y="154"/>
+	<e:Button id="btnYse" label="确定" x="595" y="275" skinName="Btn_blackSkin"/>
+	<e:Button id="btnClose" label="取消" x="469" y="275" skinName="Btn_yellowSkin"/>
+	<e:Label size="24" textColor="0X000000" text="确认拆除建筑吗？" width="250" textAlign="center" horizontalCenter="0"  y="190" />
+	<e:Label id="textInfo" text="消耗能量1/5" size="18" textColor="0X000000"  width="150" textAlign="center" horizontalCenter="0" y="233"/>
 </e:Skin>
